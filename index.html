@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamatha K - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">Mamatha.K</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero-section hidden-anim">
+            <div class="hero-content">
+                <div class="profile-container">
+                    <img src="self.jpg" alt="Mamatha K" class="profile-img" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'200\' height=\'200\'%3E%3Crect width=\'200\' height=\'200\' fill=\'%23333\'/%3E%3C/svg%3E'">
+                    <div class="profile-glow"></div>
+                </div>
+                <h1 class="hero-title">Mamatha.K</h1>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="Mamatha_K_Resume.pdf" target="_blank" class="btn outline">Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section hidden-anim">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>Hello! I am a passionate BCA graduate with a strong foundation in computer applications and software development. I enjoy building dynamic, user-friendly web applications and continuously learning new technologies to solve real-world problems.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section hidden-anim">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">Frontend Development</div>
+                <div class="skill-card">Backend Systems</div>
+                <div class="skill-card">Database Management</div>
+                <div class="skill-card">UI/UX Design</div>
+                <div class="skill-card">Problem Solving</div>
+            </div>
+        </section>
+
+        <section id="projects" class="section hidden-anim">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Project SRS</h3>
+                    <p>Software Requirements Specification documentation for a comprehensive software system.</p>
+                    <a href="srs.txt.pdf" target="_blank" class="project-link">View Documentation</a>
+                </div>
+                <div class="project-card">
+                    <h3>Product Requirements</h3>
+                    <p>Detailed Product Requirements Document (PRD) outlining feature scope and technical constraints.</p>
+                    <a href="prd.pdf" target="_blank" class="project-link">View Document</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section hidden-anim">
+            <h2 class="section-title">Get In Touch</h2>
+            <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+            <a href="mailto:contact@example.com" class="btn primary mt-2">Say Hello</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mamatha K. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
